@@ -14,7 +14,7 @@ def readUrl(url):
     html = resp.read()
     return html.decode("utf-8")if __name__=='__main__':
     uname="XXXXXXX"
-    pwd="XXXXXX"
+    pwd="XXXXXXXXX"
     url="https://account.meilishuo.com/user/login"
     print("meilishuo login begin")
     print("login url:"+url)
