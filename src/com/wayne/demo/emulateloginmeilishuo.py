@@ -13,8 +13,8 @@ def readUrl(url):
     resp = urllib.request.urlopen(url)
     html = resp.read()
     return html.decode("utf-8")if __name__=='__main__':
-    uname="haoxiaoliang1114@163.com"
-    pwd="meilishuo"
+    uname="XXXXXXX"
+    pwd="XXXXXX"
     url="https://account.meilishuo.com/user/login"
     print("meilishuo login begin")
     print("login url:"+url)
